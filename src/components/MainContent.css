@@ -1,0 +1,64 @@
+/* MainContent.css */
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .animated-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px; /* Increase font size for larger text */
+    margin-top: 10px;
+    text-transform: uppercase;
+    animation: revealText 5s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    white-space: nowrap;
+    background: linear-gradient(to right, #ed7a07, #efeded, #0c7603);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes revealText {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .loading-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px; /* Larger font size for better visibility */
+    color: rgb(2, 62, 122);
+    margin-top: 20px;
+    font-weight: normal;
+    animation: slideUp 3s ease-in-out infinite;
+  }
+  
+  @keyframes slideUp {
+    0% { transform: translateY(20px); opacity: 0; }
+    50% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-20px); opacity: 0; }
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: #ff9933; /* Saffron color */
+    color: #fff; /* White text */
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  h3 {
+    font-size: 48px; /* Increase font size for larger text */
+    margin-top: 10px;
+    color: #ffffff; /* Ensure text is visible */
+  }
+  
