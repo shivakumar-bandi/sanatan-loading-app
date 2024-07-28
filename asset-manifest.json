@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sanatan-loading-app/static/css/main.267398ff.css",
+    "main.js": "/sanatan-loading-app/static/js/main.ca1b4ca2.js",
+    "static/js/453.995a37b3.chunk.js": "/sanatan-loading-app/static/js/453.995a37b3.chunk.js",
+    "index.html": "/sanatan-loading-app/index.html",
+    "main.267398ff.css.map": "/sanatan-loading-app/static/css/main.267398ff.css.map",
+    "main.ca1b4ca2.js.map": "/sanatan-loading-app/static/js/main.ca1b4ca2.js.map",
+    "453.995a37b3.chunk.js.map": "/sanatan-loading-app/static/js/453.995a37b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.267398ff.css",
+    "static/js/main.ca1b4ca2.js"
+  ]
+}
